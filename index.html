@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div id="brand">
+        <img src="imagen/logo.png" id="logo">
+        Dennis Tarazona
+        </div>
+        <button id="botonM">Ver Menu</button>
+        <nav id="menu" class="menu">
+            <li><a href="#inicio">SOBRE MI</a></li>
+            <li><a href="#habilidades">HABILIDADES</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </nav>
+    </header>
+    <section class="inicio">
+      <div>
+        <img src="imagen/avatar.png" id="avatar">
+        <h1>Esta Pagina Web es sobre mi:</h1>
+        <p>Soy Dennis, estudiante y aprendiendo a construir cosas desde cero — 
+        esta página es parte de ese proceso. Me interesa seguir mejorando 
+        en desarrollo web y compartir aquí lo que voy descubriendo en el camino.</p>
+
+        <ul class="intereses">
+          <li>Programacion</li>
+          <li>Desarrollo Web</li>
+          <li>Videojuegos</li>
+          <li>Tecnologia</li>
+        </ul>
+      </div>
+      
+      <div>
+        <img src="imagen/ilustracion.png" id="imagen">
+      </div>
+
+        <div class="sobre-mi-tarjetas">
+          <div class="tarjeta">
+            <h3>Educacion</h3>
+            <p>Actualmente estudio en el Instituo de Sise y estoy en la carreara de
+            Desarrollo de Sistemas de Informacion
+            </p>
+          </div>
+
+          <div class="tarjeta">
+            <h3>Actualmente aprendiendo</h3>
+            <p>HTML, CSS JavaScript y Desarrollo Web</p>
+          </div>
+
+          <div class="tarjeta">
+            <h3>Tiempo Libre</h3>
+            <p>Me gusta jugar videojuegos, tanto en PC como en consola y investigar
+            sobre tecnología — desde herramientas de desarrollo hasta 
+            noticias sobre lanzamientos y actualizaciones.</p>
+          </div>
+        </div>
+    </section>
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul class="skills">
+        <li>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html">
+          HTML</li>
+        <li>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          CSS</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          JavaScript</li>
+      </ul>
+    </section>
+    <section id="galeria">
+    <h2>Galería</h2>
+    <p>Algunas capturas del progreso de esta página web:</p>
+    <div class="carrusel">
+        <button id="flecha-izq">←</button>
+        <figure>
+            <img id="imagen-galeria" src="imagen/captura1.png" alt="Captura">
+            <figcaption id="texto-galeria">Escribiendo el código</figcaption>
+        </figure>
+        <button id="flecha-der">→</button>
+    </div>
+    </section>
+    <section id="contacto">
+      <div class="contacto_texto">
+        <h2>Contacto</h2>
+        <p>Quieres escribirme? Encuentrame aqui:</p>
+      <div class="enlaces">
+        <a href="https://workspace.google.com/intl/es-419/gmail/">Correo</a>
+        <a href="https://web.whatsapp.com/">WhatsApp</a>
+        <a href="https://github.com/Dennis77-A">GitHub</a>
+        </div>
+      </div>
+          <img src="imagen/contacto.png" class="imagenC">
+    </section>
+    <footer>
+      <div class="footer-texto">
+        <p>Dennis Tarazona © 2026</p>
+        <p class="footer-derechos">Todos los derechos reservados</p>
+    </div>
+    <img src="imagen/logo.png">
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
