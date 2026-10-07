@@ -264,12 +264,14 @@ footer img{
 .seleccionado{
     border-color: #B8912F;
 }
+
 @media(max-width:768px){
   header{
     flex-direction: column;
     height: auto;
     padding: 16px;
     gap: 12px;
+    align-items: center;
     }
     #botonM{
       margin-top: 0px;
@@ -290,6 +292,7 @@ footer img{
   }
   nav{
     gap: 12px;
+    margin-left: 0;
   }
   nav li{
     display: inline;
@@ -302,6 +305,10 @@ footer img{
   }
   .sobre-mi-tarjetas{
     max-width: 100%;
+  }
+  .intereses{
+    flex-wrap: wrap;
+    justify-content: center;
   }
   #contacto{
     flex-direction: column;
